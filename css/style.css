@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 ul{
     list-style: none;
     display: flex;
@@ -20,4 +21,9 @@ li{
 a{
     text-decoration: none;
     color:black
+}
+
+a:hover{
+    border-bottom: 2px solid yellow;
+    font-size: 20pt;
 }
